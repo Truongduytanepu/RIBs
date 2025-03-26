@@ -1,0 +1,17 @@
+name: RIBS
+options:
+  bundleIdPrefix: test.RIBS
+  postGenCommand: pod install
+packages:
+  RxSwift:
+    url: https://github.com/ReactiveX/RxSwift
+    from: "6.9.0"
+
+targets:
+  RIBS:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.6"
+    sources: [RIBS]
+    dependencies:
+      - package: RxSwift
