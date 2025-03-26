@@ -10,7 +10,6 @@
 		0518B4DFDB59895DDA4FA7CD /* FAQHeaderTBVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA2422242E4DB0DBAC5C7D6 /* FAQHeaderTBVCTableViewCell.swift */; };
 		0F8F907E9D94FCEA28D11337 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B819C633C903C59D2D5818F /* BaseNavigationController.swift */; };
 		15A142F4CC13C1C47DC6CA49 /* RootComponent+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A67396B86120B00DDA1B6 /* RootComponent+Login.swift */; };
-		16F316A380FEF4384011D147 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = FF86AC61BE5D09D5EA3837AA /* project.yml */; };
 		25DE9301A6FC777C9C59DFF5 /* SecondVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3489F70DAD726CA10C4C2A7 /* SecondVCViewController.swift */; };
 		292AF44D722B1BA42EF2868D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE21F481245E5AC8C323E6E /* LaunchScreen.storyboard */; };
 		31A971777D7B6D5335BCC8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4A607555D47B3D3DB3DF1 /* AppDelegate.swift */; };
@@ -107,7 +106,6 @@
 		F3E1DE3E2C01F0175B1E6161 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F6B49FE5A09C18F4DE03E844 /* HomeComponent+ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeComponent+ThirdVC.swift"; sourceTree = "<group>"; };
 		F7F20CCAB84DDD60A1053190 /* FAQModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
-		FF86AC61BE5D09D5EA3837AA /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,7 +275,6 @@
 				EFF10F3F89827BF7BC537725 /* Info.plist */,
 				5CE21F481245E5AC8C323E6E /* LaunchScreen.storyboard */,
 				92878DFB7265DDD1273DA1E9 /* Main.storyboard */,
-				FF86AC61BE5D09D5EA3837AA /* project.yml */,
 				62821AA6F89FA4DA90C757B0 /* ViewController.swift */,
 				3D1CE6BDF8343B24FD9ADAFE /* AppStart */,
 				DB337C79A068EF92CEF05F42 /* Base */,
@@ -359,7 +356,6 @@
 				8CB3C14A5EB15BBFDF366478 /* SecondVCViewController.xib in Resources */,
 				C54DC80D5E0AC7250601996E /* ThirdVCViewController.xib in Resources */,
 				DF789965F51B50309DCCA38A /* faq_data.json in Resources */,
-				16F316A380FEF4384011D147 /* project.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
