@@ -15,12 +15,14 @@ protocol RootInteractable: Interactable, LoginListener {
 protocol RootViewControllable: ViewControllable {
 }
 
-final class RootRouter: LaunchRouter<RootInteractable, RootViewControllable>, RootRouting {
+final class RootRouter: ViewableRouter<RootInteractable, RootViewControllable>, RootRouting {
     
     private let loginBuilder: LoginBuildable
     private var loginRouter: LoginRouting?
+    private var window: UIWindow?
     
-    init(interactor: RootInteractable, viewController: RootViewControllable, loginBuilder: LoginBuildable) {
+    init(interactor: RootInteractable, viewController: RootViewControllable, window: UIWindow, loginBuilder: LoginBuildable) {
+        self.window = window
         self.loginBuilder = loginBuilder
         super.init(interactor: interactor, viewController: viewController)
         interactor.router = self
@@ -28,16 +30,10 @@ final class RootRouter: LaunchRouter<RootInteractable, RootViewControllable>, Ro
     
     func routeToLogin() {
         let loginRouter = loginBuilder.build(withListener: interactor)
+        let navigationController = BaseNavigationController(rootViewController: loginRouter.viewControllable.uiviewController)
         attachChild(loginRouter)
-
-        if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-           let window = scene.windows.first {
-            
-            window.rootViewController = BaseNavigationController(rootViewController: loginRouter.viewControllable.uiviewController)
-            window.makeKeyAndVisible()
-        }
-        
+        self.window?.makeKeyAndVisible()
+        self.window?.rootViewController = navigationController
         self.loginRouter = loginRouter
     }
-
 }

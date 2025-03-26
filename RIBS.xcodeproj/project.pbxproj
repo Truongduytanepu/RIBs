@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,14 +15,13 @@
 		31A971777D7B6D5335BCC8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4A607555D47B3D3DB3DF1 /* AppDelegate.swift */; };
 		355B4787755A78EE95C05DE4 /* HomeComponent+ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B49FE5A09C18F4DE03E844 /* HomeComponent+ThirdVC.swift */; };
 		3965A00B26F4F32344AD0EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02283A667A70C1CD6E9ADE49 /* Assets.xcassets */; };
+		39DD21F3CD2A4B390A1B5702 /* Pods_RIBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A319D0730CBE28B152AB031A /* Pods_RIBS.framework */; };
 		3AB78F8DC4F874CEB923002B /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06602B69116E2D8B6C1589 /* AppComponent.swift */; };
 		4681093B770A410E580E7B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62821AA6F89FA4DA90C757B0 /* ViewController.swift */; };
 		4B9C6EF4CD9DC6A3A0ED782E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2E775BE6BA2B1EB426D4AC /* RootViewController.xib */; };
 		51A9499F89B978A0D45D1AD2 /* FAQHeaderTBVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E626A175FC5227FE3765CF3 /* FAQHeaderTBVCTableViewCell.xib */; };
 		56573A4852FF399B8D210672 /* ThirdVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BAAC5D80213C5F96F36F4 /* ThirdVCInteractor.swift */; };
-		6208D075D0216F93744126E8 /* Pods_RIBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99165766090DA327880C3F33 /* Pods_RIBS.framework */; };
 		6CEF2CD25884DEF09C04488E /* ThirdVCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7035705115BA34EB837D7 /* ThirdVCBuilder.swift */; };
-		6D5C71771E00B64D8B294A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92878DFB7265DDD1273DA1E9 /* Main.storyboard */; };
 		6F3C37224D752F31C55B3D7C /* SecondVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097A01E616F49F4E9A85727 /* SecondVCInteractor.swift */; };
 		6FD71C762FCADE993E041864 /* FAQTBVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89053F7E7E38DFAA009EA6C9 /* FAQTBVC.xib */; };
 		75513D885817D9A967290377 /* ViewControllableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DC20768B00DB2C5FE0A01 /* ViewControllableExtensions.swift */; };
@@ -35,7 +34,6 @@
 		8C2EF9C6700CC5ED36592932 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012B9767C057493BE5FD4079 /* HomeRouter.swift */; };
 		8CB3C14A5EB15BBFDF366478 /* SecondVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2029125FC69EAB34B0144C9A /* SecondVCViewController.xib */; };
 		8CDB4E0D93AFB513F85F5471 /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F20CCAB84DDD60A1053190 /* FAQModel.swift */; };
-		8DD44340A2D1EDF0473AA15E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A217CD04B420A89594B9371 /* RxSwift */; };
 		A5A40BB39EE383C22260BDF4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF35EED1B50ED2A7E18F389 /* LoginViewController.xib */; };
 		A65C2090BCBBE22AD7E49C2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440596399AEB393C3ADA9C25 /* HomeViewController.swift */; };
 		A6FF301A7F131084DCAA10FD /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A029415AFCAB8B3A9AF64 /* RootBuilder.swift */; };
@@ -67,7 +65,7 @@
 		17D0BD0A153D1245B81B292B /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		1891D1220FAADFA2621A4555 /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
 		2029125FC69EAB34B0144C9A /* SecondVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVCViewController.xib; sourceTree = "<group>"; };
-		29FB7299BA8AA59D90576EA4 /* RIBS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RIBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FB7299BA8AA59D90576EA4 /* RIBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E88EA3594E785A79FDEFAC /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
 		3B819C633C903C59D2D5818F /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		440596399AEB393C3ADA9C25 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -75,28 +73,27 @@
 		4E254555222C9626AFC7264A /* FAQTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTBVC.swift; sourceTree = "<group>"; };
 		5008D73F527C3109E536EA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54FBCB3158CE1A431CB7C1F6 /* SecondVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCRouter.swift; sourceTree = "<group>"; };
-		58F8CE159AACCBED979A0085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EE545B76DE62B28C021DF1E /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		606BC157F6545CA156923E4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		62821AA6F89FA4DA90C757B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67043624DCAE41E380B86549 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		7B06602B69116E2D8B6C1589 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		81D7035705115BA34EB837D7 /* ThirdVCBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVCBuilder.swift; sourceTree = "<group>"; };
-		862771147762C510F30B035F /* Pods-RIBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBS.release.xcconfig"; path = "Target Support Files/Pods-RIBS/Pods-RIBS.release.xcconfig"; sourceTree = "<group>"; };
 		89053F7E7E38DFAA009EA6C9 /* FAQTBVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQTBVC.xib; sourceTree = "<group>"; };
 		8C53DF62AC326622FBF2AB87 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		8D7458F3F6F6D0F40CB98331 /* ThirdVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVCViewController.swift; sourceTree = "<group>"; };
+		8F9A514B04F4802B1E3C2C41 /* Pods-RIBS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBS.debug.xcconfig"; path = "Target Support Files/Pods-RIBS/Pods-RIBS.debug.xcconfig"; sourceTree = "<group>"; };
 		95C3A8C39B9776AD7499253B /* faq_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faq_data.json; sourceTree = "<group>"; };
-		99165766090DA327880C3F33 /* Pods_RIBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A319D0730CBE28B152AB031A /* Pods_RIBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA2422242E4DB0DBAC5C7D6 /* FAQHeaderTBVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQHeaderTBVCTableViewCell.swift; sourceTree = "<group>"; };
 		ABF4A607555D47B3D3DB3DF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC5926892B184DA5C8D240F /* Pods-RIBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBS.release.xcconfig"; path = "Target Support Files/Pods-RIBS/Pods-RIBS.release.xcconfig"; sourceTree = "<group>"; };
 		B83EC9CA1ECA4B1EF929176D /* LoginComponent+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginComponent+Home.swift"; sourceTree = "<group>"; };
 		C0A48321012686EFB8C93C41 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		C3489F70DAD726CA10C4C2A7 /* SecondVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCViewController.swift; sourceTree = "<group>"; };
 		CB2E775BE6BA2B1EB426D4AC /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		CC8A029415AFCAB8B3A9AF64 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		CE0DC20768B00DB2C5FE0A01 /* ViewControllableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllableExtensions.swift; sourceTree = "<group>"; };
-		CF9DA44B1EB956D768521EBC /* Pods-RIBS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBS.debug.xcconfig"; path = "Target Support Files/Pods-RIBS/Pods-RIBS.debug.xcconfig"; sourceTree = "<group>"; };
 		D11BA7EC2E3136261FE556EA /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		D7594785014C12AC372DD1C9 /* SecondVCBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCBuilder.swift; sourceTree = "<group>"; };
 		DBF35EED1B50ED2A7E18F389 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -110,12 +107,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F68BBAD7BC7D8C9F734911F3 /* Frameworks */ = {
+		0268E978FDD4CB06A3D8EDE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD44340A2D1EDF0473AA15E /* RxSwift in Frameworks */,
-				6208D075D0216F93744126E8 /* Pods_RIBS.framework in Frameworks */,
+				39DD21F3CD2A4B390A1B5702 /* Pods_RIBS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,23 +140,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		098F94C30B72837C59CFACFF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CF9DA44B1EB956D768521EBC /* Pods-RIBS.debug.xcconfig */,
-				862771147762C510F30B035F /* Pods-RIBS.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		0E6DFCE7FBF7C3053C56D8D1 = {
 			isa = PBXGroup;
 			children = (
 				FE2644B62D898DB98F3159EA /* RIBS */,
 				00B271A11B73165151020B6B /* Products */,
-				098F94C30B72837C59CFACFF /* Pods */,
-				9D6DB026A455D0304EE5CA63 /* Frameworks */,
+				6A7EAD5B2F9A0F4D6B625FE3 /* Pods */,
+				9586C2A98368895D23E4B548 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,6 +208,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		6A7EAD5B2F9A0F4D6B625FE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F9A514B04F4802B1E3C2C41 /* Pods-RIBS.debug.xcconfig */,
+				AFC5926892B184DA5C8D240F /* Pods-RIBS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8816EE983C18728EB9D41B08 /* RIBsExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +224,14 @@
 				CE0DC20768B00DB2C5FE0A01 /* ViewControllableExtensions.swift */,
 			);
 			path = RIBsExtensions;
+			sourceTree = "<group>";
+		};
+		9586C2A98368895D23E4B548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A319D0730CBE28B152AB031A /* Pods_RIBS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9CC5C2621E02E065C96B2AE1 /* SecondVC */ = {
@@ -243,14 +246,6 @@
 				BEF1FD2FE971068C6177886B /* Model */,
 			);
 			path = SecondVC;
-			sourceTree = "<group>";
-		};
-		9D6DB026A455D0304EE5CA63 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				99165766090DA327880C3F33 /* Pods_RIBS.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BEF1FD2FE971068C6177886B /* Model */ = {
@@ -277,7 +272,6 @@
 				95C3A8C39B9776AD7499253B /* faq_data.json */,
 				EFF10F3F89827BF7BC537725 /* Info.plist */,
 				5CE21F481245E5AC8C323E6E /* LaunchScreen.storyboard */,
-				92878DFB7265DDD1273DA1E9 /* Main.storyboard */,
 				62821AA6F89FA4DA90C757B0 /* ViewController.swift */,
 				3D1CE6BDF8343B24FD9ADAFE /* AppStart */,
 				DB337C79A068EF92CEF05F42 /* Base */,
@@ -298,20 +292,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB69F789E76CCED0B0E9367 /* Build configuration list for PBXNativeTarget "RIBS" */;
 			buildPhases = (
-				1108445E69C4776282969E75 /* [CP] Check Pods Manifest.lock */,
+				8913FED28384505FF80525A1 /* [CP] Check Pods Manifest.lock */,
 				C67F54EEA7D7993228B82266 /* Sources */,
 				E29C7124B39BDFAE007B532F /* Resources */,
-				F68BBAD7BC7D8C9F734911F3 /* Frameworks */,
-				219C7C12286808FDB6AFEDB6 /* [CP] Embed Pods Frameworks */,
+				0268E978FDD4CB06A3D8EDE7 /* Frameworks */,
+				2469DFEAA908C37171DE7017 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RIBS;
-			packageProductDependencies = (
-				7A217CD04B420A89594B9371 /* RxSwift */,
-			);
 			productName = RIBS;
 			productReference = 29FB7299BA8AA59D90576EA4 /* RIBS.app */;
 			productType = "com.apple.product-type.application";
@@ -324,8 +315,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 3440BA721DCB008A86BA6DDF /* Build configuration list for PBXProject "RIBS" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -359,7 +348,6 @@
 				FDD87A5B5954A6BB4695C9D0 /* HomeViewController.xib in Resources */,
 				292AF44D722B1BA42EF2868D /* LaunchScreen.storyboard in Resources */,
 				A5A40BB39EE383C22260BDF4 /* LoginViewController.xib in Resources */,
-				6D5C71771E00B64D8B294A1A /* Main.storyboard in Resources */,
 				4B9C6EF4CD9DC6A3A0ED782E /* RootViewController.xib in Resources */,
 				8CB3C14A5EB15BBFDF366478 /* SecondVCViewController.xib in Resources */,
 				C54DC80D5E0AC7250601996E /* ThirdVCViewController.xib in Resources */,
@@ -370,7 +358,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1108445E69C4776282969E75 /* [CP] Check Pods Manifest.lock */ = {
+		2469DFEAA908C37171DE7017 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIBS/Pods-RIBS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIBS/Pods-RIBS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RIBS/Pods-RIBS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8913FED28384505FF80525A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,23 +395,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		219C7C12286808FDB6AFEDB6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RIBS/Pods-RIBS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RIBS/Pods-RIBS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RIBS/Pods-RIBS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -462,14 +450,6 @@
 				5008D73F527C3109E536EA0C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		92878DFB7265DDD1273DA1E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58F8CE159AACCBED979A0085 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -532,17 +512,20 @@
 		};
 		9F468A080CEFDE96AFA522DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862771147762C510F30B035F /* Pods-RIBS.release.xcconfig */;
+			baseConfigurationReference = AFC5926892B184DA5C8D240F /* Pods-RIBS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MNZ366RKF;
 				INFOPLIST_FILE = RIBS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.RIBS.RIBS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RIBS;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,17 +595,20 @@
 		};
 		C67EAEE96BCF18B7E9145DC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF9DA44B1EB956D768521EBC /* Pods-RIBS.debug.xcconfig */;
+			baseConfigurationReference = 8F9A514B04F4802B1E3C2C41 /* Pods-RIBS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MNZ366RKF;
 				INFOPLIST_FILE = RIBS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.RIBS.RIBS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.RIBS;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -661,14 +647,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7A217CD04B420A89594B9371 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B2EDDB7F2229DCDF1EFADB02 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8B948031E1C7CFFA79A2DB0 /* Project object */;
 }

@@ -12,31 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    private var launchRouter: LaunchRouting?
+    private var rootRouter: RootRouting?
 
 
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        self.window = window
-
-        let rootBuilder = RootBuilder(dependency: AppComponent())
-        let launchRouter = rootBuilder.build()
-        self.launchRouter = launchRouter
-
-        // 🔹 Lấy RootViewController từ Router
-        let rootViewController = launchRouter.viewControllable.uiviewController
-        
-        // 🔹 Bọc vào NavigationController
-        let navigationController = UINavigationController(rootViewController: rootViewController)
-        window.rootViewController = navigationController
-
-        window.makeKeyAndVisible()
-
-        launchRouter.launch(from: window)
-
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        let rootBuilder = RootBuilder(dependency: AppComponent(window: window!))
+        rootRouter = rootBuilder.build()
+        rootRouter?.interactable.activate()
+        rootRouter?.load()
         return true
     }
 

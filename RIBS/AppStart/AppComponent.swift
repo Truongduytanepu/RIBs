@@ -5,11 +5,14 @@
 //  Created by Yeojin Yoon on 2022/04/05.
 //
 
+import UIKit
 import RIBs
 
-final class AppComponent: Component<EmptyDependency>, RootDependency {
+class AppComponent: Component<EmptyComponent>, RootDependency {
+    var window: UIWindow!
     
-    init() {
+    internal init(window: UIWindow) {
+        self.window = window
         super.init(dependency: EmptyComponent())
     }
 }
